@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GoSecuri.MainPage"
+             BackgroundColor="#379EC1"
+             Title="GoSecuri"
+             >
+    
+    <StackLayout BackgroundColor="#379EC1" >
+        <Button 
+                Margin="70,10,70,10"
+                Text="BERTHIER Corinna"         
+                x:Name="btnCBERTHIER"
+                Clicked="btnCBERTHIER_Clicked"
+                BackgroundColor="#659224"
+                HeightRequest="50"
+                
+                
+             >
+        </Button>
+
+        <Button 
+                Margin="70,10,70,10"
+                Text="CONNOR Sophie"
+                x:Name="btnSCONNOR"
+                Clicked="btnSCONNOR_Clicked"
+                BackgroundColor="#659224"
+                HeightRequest="50"
+             >
+        </Button>
+
+        <Button 
+                Margin="70,10,70,10"
+                Text="JEANAI Maclaque"
+                x:Name="btnMJEANAI"
+                Clicked="btnMJEANAI_Clicked"
+                BackgroundColor="#659224"
+                HeightRequest="50"
+             >
+        </Button>
+
+        <Button 
+                Margin="70,10,70,10"
+                Text="FOLEY Arnaud"
+                x:Name="btnAFOLEY"
+                Clicked="btnAFOLEY_Clicked"
+                BackgroundColor="#659224"
+                HeightRequest="50"
+             >
+        </Button>
+
+        <Button
+                Margin="70,10,70,10"
+                Text="RIGGS Mehboula"
+                x:Name="btnMRIGGS"
+                Clicked="btnMRIGGS_Clicked"
+                BackgroundColor="#659224"
+                HeightRequest="50"
+             >
+        </Button>
+
+        <Button 
+                Margin="70,10,70,10"
+                Text="WEST Joris"
+                x:Name="btnJWEST"
+                Clicked="btnJWEST_Clicked"
+                BackgroundColor="#659224"
+                HeightRequest="50"
+             >
+        </Button>
+
+        <Button 
+                Margin="70,10,70,10"
+                Text="HOLMES Sacha"
+                x:Name="btnSHOLMES"
+                Clicked="btnSHOLMES_Clicked"
+                BackgroundColor="#659224"
+                HeightRequest="50"
+             >
+        </Button>
+
+        <Button 
+                Margin="70,10,70,10"
+                Text="ROULETABILLE Julien"
+                Clicked="btnJROULETABILLE_Clicked"
+                x:Name="btnJROULETABILLE"
+                BackgroundColor="#659224"
+                HeightRequest="50"
+             >
+        </Button>
+    </StackLayout>
+</ContentPage>
